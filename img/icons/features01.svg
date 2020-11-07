@@ -1,0 +1,19 @@
+<svg class="features__img" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.429 37.2731C32.0727 37.2731 37.4437 35.6033 37.7776 28.9244" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M29.2202 42.0734C33.4502 42.0734 42.0437 39.4019 42.578 28.7156" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M29.6776 21.6594C27.0338 21.6594 21.6629 23.3291 21.3289 30.008" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M29.8863 16.8589C25.6563 16.8589 17.0628 19.5305 16.5285 30.2167" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="29.6376" cy="29.9679" r="2.70688" stroke="#AFAFAF" stroke-width="2.1"/>
+<path d="M43.8303 10.7661L50.9266 22.8716" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="42.1606" cy="8.26146" r="2.70688" stroke="#AFAFAF" stroke-width="2.1"/>
+<path d="M53.0611 32.3716L46.1256 44.5699" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="54.396" cy="29.6733" r="2.70688" transform="rotate(60 54.396 29.6733)" stroke="#AFAFAF" stroke-width="2.1"/>
+<path d="M39.0771 51.4656L25.0453 51.5585" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="42.0818" cy="51.2718" r="2.70688" transform="rotate(120 42.0818 51.2718)" stroke="#AFAFAF" stroke-width="2.1"/>
+<path d="M15.445 48.3349L8.34863 36.2294" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="17.1147" cy="50.8394" r="2.70688" transform="rotate(-180 17.1147 50.8394)" stroke="#AFAFAF" stroke-width="2.1"/>
+<path d="M6.46611 26.7213L13.4016 14.523" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="5.132" cy="29.4196" r="2.70688" transform="rotate(-120 5.132 29.4196)" stroke="#AFAFAF" stroke-width="2.1"/>
+<path d="M20.6588 8.14563L34.6906 8.05278" stroke="#AFAFAF" stroke-width="2.1" stroke-linecap="round"/>
+<circle cx="17.6549" cy="8.3393" r="2.70688" transform="rotate(-60 17.6549 8.3393)" stroke="#AFAFAF" stroke-width="2.1"/>
+</svg>

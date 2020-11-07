@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Vertical navigation -->
+        <nav id="vertical-nav" class="nav">
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__link  active">01</a></li>
+                <li><a href="#technologies" class="nav__link">02</a></li>
+                <li><a href="#principals" class="nav__link">03</a></li>
+                <li><a href="#integration" class="nav__link">04</a></li>
+                <li><a href="#interest" class="nav__link">05</a></li>
+                <li><a href="#events" class="nav__link">06</a></li>
+                <li><a href="#discuss" class="nav__link">07</a></li>
+            </ul>
+        </nav>
+        <!-- Header -->
+        <header class="header"> 
+            <div class="container-fluid">      
+                <nav class="header__nav">
+                    <a href="" class="logo"><img src="img/logo.svg" alt=""></a>
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header__menu menu">
+                        <ul class="menu__list">
+                            <li><a href="#technologies" class="menu__link">Технологии</a></li>
+                            <li><a href="#principals" class="menu__link">Наши принципы</a></li>
+                            <li><a href="#integration" class="menu__link">Интеграция</a></li>
+                            <li><a href="#interest" class="menu__link">Управление и интересы</a></li>
+                            <li><a href="#events" class="menu__link">События</a></li>
+                        </ul>
+                    </div>
+                    <a href="#discuss" class="btn header__btn">Обсудить проект</a> 
+                </nav>  
+            </div> 
+        </header>
+        <!-- Main banner -->
+        <div class="main-banner banner hero-bg" id="home">
+            <video autoplay muted loop class="banner__video">
+                <source src="img/video.mp4" type="video/mp4">
+              </video>
+			<div class="banner__content">
+                <div class="banner__item">
+                    <div class="banner__date anim-items anim-hide">1995 - 2019</div>
+                    <h2 class="heading anim-items anim-hide">Признанные специалисты, оказавшие существенное влияние на формирование отечественной IT-индустрии. </h2>
+                    <p class="banner__desc anim-items anim-hide">С 1995 года разрабатываем проекты городского масштаба: Data центры, дисрибуцию, розничные сети, ЦОД.  </p> 
+                    <a href="" class="btn banner__btn anim-items anim-hide">Презентация компании</a>
+                </div>        
+            </div> 
+            <div class="banner-side__title">Технологии  и  опыт</div> 
+        </div> 
+        <!-- Features -->
+        <section class="features__section hero-bg" id="technologies">
+            <div class="features__container">
+                <h2 class="page__title">Передовые технологии</h2>
+                <div class="features__row">
+                    <div class="features__column">
+                        <a href="" class="features__img features__img-01 anim-items anim-hide"></a>
+                        <p class="features__desc">IoT / M2M Интернет вещей и межмашинное взаимодействие</p>
+                    </div>
+                    <div class="features__column">
+                        <a href="" class="features__img features__img-02 anim-items anim-hide"></a>
+                        <p class="features__desc">ML/AIИскуственный интеллект и машинное обучение</p>
+                    </div>
+                    <div class="features__column">
+                        <a href="" class="features__img features__img-03 anim-items anim-hide"></a>
+                        <p class="features__desc">Cloud computing, VDI
+                        Виртуализация вычислительных ресурсов, систем хранения данных и рабочих мест</p>
+                    </div>
+                    <div class="features__column">
+                        <a href="" class="features__img features__img-04 anim-items anim-hide"> </a>
+                        <p class="features__desc">Edge computingОрганизация вычислений/обработки данных на “границе сети”</p>
+                    </div>
+                </div>
+                <div class="features__slider">
+                    <div class="features__item item-features">
+                        <div class="item-features">
+                            <div class="item-features__img-wrap">
+                             <a href="" class="item-features__img"><img src="img/features-img01.png" alt=""></a>
+                            </div>
+                            <aside class="item-features__aside">
+                                <h6 class="item-features__subtitle">ML/AI</h6>
+                                <h3 class="item-features__title">Искуственный интеллект и машинное обучение</h3>
+                                <p class="item-features__desc">
+                                    Применение алгоритмов и фреймворков машинного обучения для обработки данных на edge. Прежде всего, видеоданных (изображений). </p>
+                            </aside>
+                        </div>                       
+                    </div>
+                    <div class="features__item item-features">
+                        <div class="item-features">
+                            <div class="item-features__img-wrap">
+                             <a href="" class="item-features__img"><img src="img/features-img02.png" alt=""></a>
+                            </div>
+                            <aside class="item-features__aside">
+                                <h6 class="item-features__subtitle">ML/AI</h6>
+                                <h3 class="item-features__title">Искуственный интеллект и машинное обучение</h3>
+                                <p class="item-features__desc">
+                                    Применение алгоритмов и фреймворков машинного обучения для обработки данных на edge. Прежде всего, видеоданных (изображений). </p>
+                            </aside>
+                        </div>                       
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <!-- Principal section -->
+        <section id="principals" class="principals__section hero-bg">
+            <div class="container-fluid">
+                <div class="principals__inner">
+                    <svg class="map">
+                        <use xlink:href="img\svg.sprite\map.svg#principals-cart"></use>
+                    </svg>
+                    <div class="principals__content">
+                        <div class="page__title">Для передовых решений</div>
+                        <ul class="principals__list">
+                            <li class="principals__item">Системы операторского класса для сферы общественной безопастности</li>
+                            <li class="principals__item">Инфраструктура хранения и передача данных</li>
+                            <li class="principals__item">Распределенные системы видеонаблюдения</li>
+                        </ul>
+                        <p class="principals__desc"><span>Любого масштаба:</span> 
+                        от локальных интеграционных задач до территориально распределенных проектов уровня региона.</p>
+                    </div>
+                </div>  
+            </div> 
+        </section>
+        <!-- Integration -->
+        <section id="integration" class="integration__section hero-bg">
+            <div class="container">
+                <div class="integration__inner">
+                    <div class="integration__content">
+                        <div class="page__title">Ответственно. Со знанием дела. Неформально</div>
+                        <ul class="integration__list">
+                            <li class="integration__item">Инженерная оптимизация</li>
+                            <li class="integration__item">Технологическая поддержка от постановки задачи до внедрения</li>
+                            <li class="integration__item">Всегда специальные условия поставки оборудования</li>
+                        </ul>
+                    </div>
+                    <div class="integration__content">
+                        <div class="page__title">На прочной основе</div>
+                        <div class="integration__brands brands">
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/01.png" alt="">
+                                </a> 
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/02.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/03.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/04.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/05.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/06.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/07.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/08.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/09.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/10.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/11.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/12.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brands__item">
+                                <a href="" class="integration__img">
+                                    <img src="img/brands/13.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+          
+        </section>
+        <!-- Interest -->
+        <section id="interest" class="interest__section hero-bg">
+            <div class="container">
+                <a href="" class="interest__logo">
+                    <img src="img/logo-red.svg" alt="">
+                </a>
+                <div class="page__title">Управление и интересы</div>
+                <div class="interest__inner">
+                    <div class="interest__content">
+                        <ul class="interest__list">
+                            <li class="interest__item">
+                                <a href="" class="interest__link">Генеральный подряд и концессионное управление</a> 
+                                <p class="interest__desc">Интегрируем собственные разработки и продукты глобальных и региональных партнеров, с целью создания принципиально новых решений, получение новых качеств, решение актуальных производственных задач</p>
+                            </li>
+                            <li class="interest__item">
+                                <a href="" class="interest__link">Инвестиции в технологические стартапы</a>
+                                <p class="interest__desc">Интегрируем собственные разработки и продукты глобальных и региональных партнеров, с целью создания принципиально новых решений, получение новых качеств, решение актуальных производственных задач</p>
+                            </li>
+                            <li class="interest__item">
+                                <a href="" class="interest__link active">Технологическое партнерство
+                                </a>
+                                <p class="interest__desc" style="max-height: 88px; margin-bottom: 27px;">Интегрируем собственные разработки и продукты глобальных и региональных партнеров, с целью создания принципиально новых решений, получение новых качеств, решение актуальных производственных задач</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="interest__content">
+                        <div class="interest__circle circle"> 
+                            <div class="circle__wrapper">
+                                <div class="circle__icon">
+                                   <img class="setting__icon" src="img/interest/settings.svg" alt=""> 
+                                </div>
+                                <ul class="circle__list">
+                                    <li class="circle__item">Сопровождение и управление</li>
+                                    <li class="circle__item">Внедрение</li>
+                                    <li class="circle__item">Проектирование</li>
+                                    <li class="circle__item">Предпроектное исследование</li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+        <!--Events -->
+        <section id="events" class="events__section hero-bg">
+            <div class="container">
+                <div class="events__row">
+                    <div class="page__title">События, факты, комментарии</div>
+                    <div class="slider-events__buttons">
+                        <button id="eventsPrev"  class="slider-events__btn slider-events__prev-btn"></button>
+                        <button id="eventsNext"  class="slider-events__btn slider-events__next-btn"></button>
+                    </div>
+                </div>
+                <div class="events__inner">
+                    <div class="events__slider slider-events">
+                        <div class="slider-events__item anim-items anim-hide slider-events__itemLeft">
+                            <div class="slider-events__img">
+                                <a href="" class="">
+                                    <img src="img/events/01.png" alt="">
+                                </a>
+                               <div class="slider-events__label">Внедрение</div>   
+                            </div>
+                            <div class="slider-events__content">
+                                <h5 class="slider-events__title">
+                                    <a href="">  Компания Alager поздравляет всех женщин с праздником 8 Марта!</a>
+                                </h5>
+                                <p class="slider-events__desc">Cтатус HPE BP подтверждает возможности компании в качестве эксперта по решениям Enterprise!</p> 
+                                <div class="slider-events__date">06.11.2020</div>
+                            </div>
+                        </div>
+                        <div class="slider-events__item anim-items anim-hide slider-events__itemLeft">
+                            <div class="slider-events__img">
+                                <a href="" class="">
+                                    <img src="img/events/02.png" alt="">
+                                </a>
+                               <div class="slider-events__label">Внедрение</div>   
+                            </div>
+                            <div class="slider-events__content">
+                                <h5 class="slider-events__title">
+                                    <a href="">  Компания Alager поздравляет всех женщин с праздником 8 Марта!</a>
+                                </h5>
+                                <p class="slider-events__desc">Cтатус HPE BP подтверждает возможности компании в качестве эксперта по решениям Enterprise!</p> 
+                                <div class="slider-events__date">06.11.2020</div>
+                            </div>
+                        </div>
+                        <div class="slider-events__item anim-items anim-hide slider-events__itemRight">
+                            <div class="slider-events__img">
+                                <a href="" class="">
+                                    <img src="img/events/03.png" alt="">
+                                </a>
+                               <div class="slider-events__label">Внедрение</div>   
+                            </div>
+                            <div class="slider-events__content">
+                                <h5 class="slider-events__title">
+                                    <a href="">  Компания Alager поздравляет всех женщин с праздником 8 Марта!</a>
+                                </h5>
+                                <p class="slider-events__desc">Cтатус HPE BP подтверждает возможности компании в качестве эксперта по решениям Enterprise!</p> 
+                                <div class="slider-events__date">06.11.2020</div>
+                            </div>
+                        </div>
+                        <div class="slider-events__item anim-items anim-hide slider-events__itemRight">
+                            <div class="slider-events__img">
+                                <a href="" class="">
+                                    <img src="img/events/04.png" alt="">
+                                </a>
+                               <div class="slider-events__label">Внедрение</div>   
+                            </div>
+                            <div class="slider-events__content">
+                                <h5 class="slider-events__title">
+                                    <a href="">  Компания Alager поздравляет всех женщин с праздником 8 Марта!</a>
+                                </h5>
+                                <p class="slider-events__desc">Cтатус HPE BP подтверждает возможности компании в качестве эксперта по решениям Enterprise!</p> 
+                                <div class="slider-events__date">06.11.2020</div>
+                            </div>
+                        </div>
+                        <div class="slider-events__item anim-items anim-hide slider-events__item">
+                            <div class="slider-events__img">
+                                <a href="" class="">
+                                    <img src="img/events/04.png" alt="">
+                                </a>
+                               <div class="slider-events__label">Внедрение</div>   
+                            </div>
+                            <div class="slider-events__content">
+                                <h5 class="slider-events__title">
+                                    <a href="">  Компания Alager поздравляет всех женщин с праздником 8 Марта!</a>
+                                </h5>
+                                <p class="slider-events__desc">Cтатус HPE BP подтверждает возможности компании в качестве эксперта по решениям Enterprise!</p> 
+                                <div class="slider-events__date">06.11.2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Discuss -->
+        <section id="discuss" class="discuss__section hero-bg">
+            <div class="container">
+                <div class="page__title">Обсудить проект</div>
+                <div class="discuss__tab tab">
+                    <div class="tab">
+                        <nav class="tab__nav">
+                            <ul class="tab__list">
+                                <li><a href="" class="tab__nav-item active" onclick="tabFunc(event, 'tab01')">Темы</a></li>
+                                <li><a href="" class="tab__nav-item" onclick="tabFunc(event, 'tab02')">Задачи</a></li>
+                                <li><a href="" class="tab__nav-item" onclick="tabFunc(event, 'tab03')">Коммуникация</a></li>
+                            </ul>
+                        </nav>
+                        <div class="tab__body">
+                            <div class="tab__content active" id="tab01">
+                                <div class="discuss__row">
+                                    <div class="discuss__item">   
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/01.svg#discuss01" ></use>
+                                            </svg>    
+                                        </a>
+                                        <p class="discuss__desc">Общественная безопастность</p>
+                                    </div>
+                                    <div class="discuss__item">
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/02.svg#discuss02" ></use>
+                                            </svg>    
+                                        </a>
+                                        <p class="discuss__desc">Финтех</p>
+                                    </div>
+                                    <div class="discuss__item">
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/03.svg#discuss03" ></use>
+                                            </svg> 
+                                        </a>
+                                        <p class="discuss__desc">Электронная коммерция</p>
+                                    </div>
+                                    <div class="discuss__item">
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/04.svg#discuss04" ></use>
+                                            </svg> 
+                                        </a>
+                                        <p class="discuss__desc">Интерннет вещей и AI</p>
+                                    </div>
+                                    <div class="discuss__item">
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/05.svg#discuss05" ></use>
+                                            </svg> 
+                                        </a>
+                                        <p class="discuss__desc">Вычислительная инфраструктура</p>
+                                    </div>
+                                    <div class="discuss__item">
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/06.svg#discuss06" ></use>
+                                            </svg> 
+                                        </a>
+                                        <p class="discuss__desc">Сетевая инфраструктура</p>
+                                    </div>
+                                    <div class="discuss__item">
+                                        <a href="" class="discuss__img anim-items anim-hide">
+                                            <svg class="discuss__icon">
+                                                <use xlink:href="img\discuss/07.svg#discuss07" ></use>
+                                            </svg> 
+                                        </a>
+                                        <p class="discuss__desc">другое</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab__content" id="tab02">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, dolorem odio? At minima odit suscipit explicabo consequuntur quidem! Voluptates, incidunt.</p>
+                            </div>
+                            <div class="tab__content" id="tab03">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequuntur a minima fuga in dolores molestias vel accusamus nesciunt corporis.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequuntur a minima fuga in dolores molestias vel accusamus nesciunt corporis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <a class="footer__item">ООО «Алагер» 1995-2019</a>
+                    </div>
+                    <div class="footer__column">
+                        <a href="" class="footer__item">Москва, просп. Маршала Жукова, 1, стр. 1.</a>     
+                        <a href=""  class="footer__item">Телефон: +7 (499) 490-28-20</a>
+                    </div>
+                    <div class="footer__column">
+                        <a href="" class="footer__item">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      
+        
+
+        
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
