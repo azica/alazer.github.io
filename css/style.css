@@ -4970,6 +4970,24 @@ section {
   .toggle-menu span:nth-child(3) {
     top: 19px;
   }
+     .toggle-menu.active {
+    span {
+      transition: 0.25s ease-in-out;
+    }
+    transition: 0.5s ease-in-out;
+    span:nth-child(1) {
+      transform: rotate(135deg);
+      top: 12px;
+    }
+    span:nth-child(2) {
+      opacity: 0;
+      left: -60px;
+    }
+    span:nth-child(3) {
+      transform: rotate(-135deg);
+      top: 12px;
+    }
+  }
   .menu {
     display: none;
   }
