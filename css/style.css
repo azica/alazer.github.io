@@ -5232,7 +5232,7 @@ section {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 30px;
-  background: url("../img/icons/file.svg") no-repeat center/cover;
+  background: url("../img/icons/file.png") no-repeat center/cover;
   height: 38px;
   width: 28px;
 }
