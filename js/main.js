@@ -1,16 +1,22 @@
 
  // FIXED TOP HEADER
- function myFunction() {
-  window.onscroll = function() {myFunction()};
-  var header = document.querySelector('header');
-  var sticky = header.offsetTop;
-  if (window.pageYOffset > sticky) {
-    header.classList.add("header-sticky");
-  } else {
-    header.classList.remove("header-sticky");
-  }
-}
-myFunction();
+jQuery(function($) {
+
+  var $nav = $('#header');
+  var $win = $(window);
+  var winH = $win.height(); 
+
+  $win.on("scroll", function () {
+      if ($(this).scrollTop() > winH ) {
+          $nav.addClass("header-sticky");
+      } else {
+          $nav.removeClass("header-sticky");
+      }
+  }).on("resize", function(){ 
+     winH = $(this).height(); 
+  });
+
+});
 
  // TOGGLE MENU
  $('.toggle-menu').click(function () {
